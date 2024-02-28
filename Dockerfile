@@ -1,4 +1,3 @@
-# wp
 FROM opensuse/leap:latest
 RUN zypper in -y dnsmasq
 COPY dnsmasq.conf /etc/dnsmasq.conf
